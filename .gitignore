@@ -1,0 +1,42 @@
+# Just names
+Thumbs.db
+.DS_Srore
+
+# Just extension
+*.log
+
+# Compiled files
+*.class
+*.py[co]
+
+migrate-201[5-7]*
+
+*.py?
+
+#PATH
+build/
+
+/build/
+
+secret/key
+
+doc/*.html
+
+/*.txt
+
+var/www*/tmp
+
+users/*/private
+
+#double wildcard **
+
+**/*.log
+
+#everywhere
+**/app/cache 
+
+
+#exception with !
+.*
+!.gitattributes
+!.gitignore
