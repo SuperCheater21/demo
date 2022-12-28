@@ -2,3 +2,21 @@
 *.css diff=css
 *.md diff=markdown
 *.png diff=image
+
+* text=auto
+
+#force text
+*.html text
+*.js text
+*.css text
+
+# Windows files (need CRLF)
+*.sln text eol=crlf #Эти две записи эквеаленты
+*.bat eol=crlf #И эта
+
+# Unix files (need LF)
+*.sh eol=lf
+
+# binary files
+*.jpg -text
+*.gif -text
