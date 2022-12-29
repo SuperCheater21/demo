@@ -40,3 +40,11 @@ users/*/private
 .*
 !.gitattributes
 !.gitignore
+
+
+
+
+# Merge
+*.txt merge=txt
+*.jpg merge=binary
+ 
